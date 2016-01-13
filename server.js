@@ -91,8 +91,8 @@ app.put("/person", function(req, res) {
       'Content-Type': 'application/json'
     });
     res.write(JSON.stringify({
-    'success': 1
-  }));
+      'success': 1
+    }));
     res.end();
     console.log(err);
   });
@@ -132,12 +132,12 @@ app.put("/action", function(req, res) {
       'Content-Type': 'application/json'
     });
     res.write(JSON.stringify({
-    'success': 1
-  }));
-  res.end();
+      'success': 1
+    }));
+    res.end();
     console.log(err);
   });
-  
+
 
 });
 
@@ -158,12 +158,12 @@ app.put("/automatable", function(req, res) {
       'Content-Type': 'application/json'
     });
     res.write(JSON.stringify({
-    'success': 1
-  }));
-  res.end();
+      'success': 1
+    }));
+    res.end();
     console.log(err);
   });
-  
+
 
 });
 
@@ -176,7 +176,7 @@ app.get("/automatable", function(req, res) {
       res.writeHead(500, {
         'Content-Type': 'application/json'
       });
-  res.end();
+      res.end();
       return console.error(err);
     }
     console.log(JSON.stringify(automatable));
