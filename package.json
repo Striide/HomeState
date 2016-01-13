@@ -1,0 +1,29 @@
+{
+  "name": "homestate",
+  "version": "1.0.0",
+  "description": "Home Automation State Machine",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Striide/HomeState.git"
+  },
+  "author": "Chad Lindstrom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Striide/HomeState/issues"
+  },
+  "homepage": "https://github.com/Striide/HomeState#readme",
+  "dependencies": {
+    "body-parser": "latest",
+    "connect": "latest",
+    "express": "^4.13.3",
+    "http": "latest",
+    "kerberos": "0.0.17",
+    "mongodb": "^2.1.4",
+    "mongoose": "latest"
+  }
+}
